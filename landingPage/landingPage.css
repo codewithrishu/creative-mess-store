@@ -92,8 +92,12 @@ body{
         border: none;
         border-radius: 2rem;
         background-color: rgb(255, 208, 0);
-    
-      
+  
+}
+
+.header-content button a{
+    text-decoration: none;
+    color: black;
 }
 
 @media only screen and (max-width:900px) {
