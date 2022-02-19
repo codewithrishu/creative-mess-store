@@ -1,0 +1,45 @@
+@import url(../landingPage/landingPage.css);
+
+
+.cartpage-container {
+    display: grid;
+    grid-template-areas:
+        "nav"
+        "cart";
+}
+
+.cart {
+    grid-area: cart;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    padding: 5rem;
+
+}
+
+.carts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.spaced-list {
+
+    width: 20rem;
+    box-shadow: 0 2px 2px #9b9898;
+    padding: 1rem;
+
+}
+
+.price,
+.discount-price,
+.d-charges,
+.total-bill {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-bill {
+    border-top: 1px solid grey;
+}

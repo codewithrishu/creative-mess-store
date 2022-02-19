@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +10,12 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js%22%3E"></script>
 
     <link rel="stylesheet" href="https://creative-mess-ui.netlify.app/style.css">
-    
-    <link rel="stylesheet" href="productPage.css">
-    <title>Products</title>
+    <link rel="stylesheet" href="wishlist.css">
+
+    <title>Wishlist</title>
 </head>
 <body>
-    <div class="productPage-container">
+    <div class="cartpage-container">
         <nav class="comp-mynav">
             <div class="comp-mynav-logo">
                 <a href="../index.html">Creative Mess</a>
@@ -34,14 +33,14 @@
                             <span class="material-icons">
                                 search
                             </span>
-        
-                            <input type="text" placeholder="Search">
-        
+
+                            <input type="text" placeholder="Search" >
+
                             <a href="">
                                 <button class="login-btn">Login</button>
-        
+
                             </a>
-                            <a href="../wishlist/wishlist.html">
+                            <a href="wishlist.html">
                                 <span class="material-icons">
                                     favorite_border
                                 </span>
@@ -56,149 +55,9 @@
                 </ul>
             </div>
         </nav>
-
-        <aside class="listing-products">
-            <div class="spaced-list">
-                <div class="list-title">
-                   <h5>Filters</h5>
-                   <h5>Clear</h5>
-                </div>
-                <div class="catogory">
-                    <h5>Price</h5>
-                    <div class="checkbox">
-                        <label for="checkbox1">
-                            <input type="checkbox" id="checkbox1" name="checkbox">
-                            above 5000
-                        </label>
-                    </div>
-                
-                    <div class="checkbox">
-                        <label for="checkbox2">
-                            <input type="checkbox" id="checkbox2" name="checkbox">
-                            3000 - 5000
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="checkbox1">
-                            <input type="checkbox" id="checkbox1" name="checkbox">
-                            1000 - 3000
-                        </label>
-                    </div>
-                
-                    <div class="checkbox">
-                        <label for="checkbox2">
-                            <input type="checkbox" id="checkbox2" name="checkbox">
-                            500 - 1000
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="checkbox1">
-                            <input type="checkbox" id="checkbox1" name="checkbox">
-                            below 500
-                        </label>
-                    </div>
-                
-                
-                </div>
-                <div class="catogory">
-                    <h5>catogory</h5>
-                    <div class="checkbox">
-                        <label for="checkbox1">
-                            <input type="checkbox" id="checkbox1" name="checkbox" >
-                            catogory 1
-                        </label>
-                    </div>
-                    
-                    <div class="checkbox">
-                        <label for="checkbox2">
-                            <input type="checkbox" id="checkbox2" name="checkbox">
-                            catogory 2
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="checkbox1">
-                            <input type="checkbox" id="checkbox1" name="checkbox" >
-                            catogory 3
-                        </label>
-                    </div>
-                    
-                    <div class="checkbox">
-                        <label for="checkbox2">
-                            <input type="checkbox" id="checkbox2" name="checkbox">
-                            catogory 4
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label for="checkbox1">
-                            <input type="checkbox" id="checkbox1" name="checkbox" >
-                            catogory 5
-                        </label>
-                    </div>
-                   
-                   
-                </div>
-                <div class="rating">
-                    <h5>Rating</h5>
-                    <div class="radio">
-                        <label for="radio1">
-                            <input type="radio" id="radio1" name="radio" checked>
-                            5 star
-                        </label>
-                    </div>
-                    
-                    <div class="radio">
-                        <label for="radio2">
-                            <input type="radio" id="radio2" name="radio">
-                            4 star - 5 star
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label for="radio1">
-                            <input type="radio" id="radio1" name="radio" checked>
-                            3 star - 4 star
-                        </label>
-                    </div>
-                    
-                    <div class="radio">
-                        <label for="radio2">
-                            <input type="radio" id="radio2" name="radio">
-                              below 3
-                        </label>
-                    </div>
-                </div>
-                <div class="sort-by">
-                    <h5>Sort by</h5>
-                    <div class="radio">
-                        <label for="radio1">
-                            <input type="radio" id="radio1" name="radio" checked>
-                            newest first
-                        </label>
-                    </div>
-                
-                    <div class="radio">
-                        <label for="radio2">
-                            <input type="radio" id="radio2" name="radio">
-                            popularity
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label for="radio1">
-                            <input type="radio" id="radio1" name="radio" checked>
-                            High to low
-                        </label>
-                    </div>
-                     <div class="radio">
-                        <label for="radio1">
-                            <input type="radio" id="radio1" name="radio" checked>
-                            low to high
-                        </label>
-                    </div>
-                </div>
-               
-            </div>
-        </aside>
-
-       <main class="product-area">
+        <div class="wishlist-container">
+            <h2>My Wishlist</h2>
+            <div class="wishlist">
                 <div class="card"> 
                     <div class="dismiss-icon">
                         <span class="material-icons">
@@ -206,7 +65,7 @@
                         </span>
                     </div>
                     <div class="card-image">
-                        <img class="image" src="images/1480051134Camlin Compressed Charcoal and Pencils.jpg" alt="">
+                        <img class="image" src="../images/1480051134Camlin Compressed Charcoal and Pencils.jpg" alt="">
                     </div>
                     <div class="card-title">
                         Heading
@@ -236,7 +95,7 @@
                         </span>
                     </div>
                     <div class="card-image">
-                        <img class="image" src="images/1480051032brevilliers Cretacolor Brown & Grey Chalks-2.jpg" alt="">
+                        <img class="image" src="../images/1480051032brevilliers Cretacolor Brown & Grey Chalks-2.jpg" alt="">
                     </div>
                     <div class="card-title">
                         Heading
@@ -266,7 +125,7 @@
                         </span>
                     </div>
                     <div class="card-image">
-                        <img class="image" src="images/1480051080Camlin Artist's oil colours.jpg" alt="">
+                        <img class="image" src="../images/1480051080Camlin Artist's oil colours.jpg" alt="">
                     </div>
                     <div class="card-title">
                         Heading
@@ -296,7 +155,7 @@
                         </span>
                     </div>
                     <div class="card-image">
-                        <img class="image" src="images/1480051134Camlin Compressed Charcoal and Pencils.jpg" alt="">
+                        <img class="image" src="../images/1480051134Camlin Compressed Charcoal and Pencils.jpg" alt="">
                     </div>
                     <div class="card-title">
                         Heading
@@ -326,7 +185,7 @@
                         </span>
                     </div>
                     <div class="card-image">
-                        <img class="image" src="images/1480051032brevilliers Cretacolor Brown & Grey Chalks-2.jpg" alt="">
+                        <img class="image" src="../images/1480051032brevilliers Cretacolor Brown & Grey Chalks-2.jpg" alt="">
                     </div>
                     <div class="card-title">
                         Heading
@@ -356,7 +215,7 @@
                         </span>
                     </div>
                     <div class="card-image">
-                        <img class="image" src="images/1480051080Camlin Artist's oil colours.jpg" alt="">
+                        <img class="image" src="../images/1480051080Camlin Artist's oil colours.jpg" alt="">
                     </div>
                     <div class="card-title">
                         Heading
@@ -386,7 +245,7 @@
                         </span>
                     </div>
                     <div class="card-image">
-                        <img class="image" src="images/1480051134Camlin Compressed Charcoal and Pencils.jpg" alt="">
+                        <img class="image" src="../images/1480051134Camlin Compressed Charcoal and Pencils.jpg" alt="">
                     </div>
                     <div class="card-title">
                         Heading
@@ -416,7 +275,7 @@
                         </span>
                     </div>
                     <div class="card-image">
-                        <img class="image" src="images/1480051032brevilliers Cretacolor Brown & Grey Chalks-2.jpg" alt="">
+                        <img class="image" src="../images/1480051032brevilliers Cretacolor Brown & Grey Chalks-2.jpg" alt="">
                     </div>
                     <div class="card-title">
                         Heading
@@ -446,7 +305,7 @@
                         </span>
                     </div>
                     <div class="card-image">
-                        <img class="image" src="images/1480051080Camlin Artist's oil colours.jpg" alt="">
+                        <img class="image" src="../images/1480051080Camlin Artist's oil colours.jpg" alt="">
                     </div>
                     <div class="card-title">
                         Heading
@@ -469,8 +328,13 @@
                         <button class="add-cart-button">Add To Cart</button>
                     </div>
                 </div>
+            </div>
                 
-       </main>
+                
+    
+        </div>
     </div>
+    
+    
 </body>
 </html>
