@@ -31,9 +31,9 @@
 
 }
 
-.price,
-.discount-price,
-.d-charges,
+.bill-price,
+.bill-discount-price,
+.bill-d-charges,
 .total-bill {
     font-size: 1rem;
     display: flex;
