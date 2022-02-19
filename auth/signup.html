@@ -11,13 +11,13 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js%22%3E"></script>
 
     <link rel="stylesheet" href="https://creative-mess-ui.netlify.app/style.css">
-    <link rel="stylesheet" href="landingPage/landingPage.css">
+    <link rel="stylesheet" href="auth.css">
 
-    <title>Creative mess</title>
+    <title>Singup</title>
 </head>
 
 <body>
-    <div class="landingPage-container">
+    <div class="auth-container">
         <nav class="comp-mynav">
             <div class="comp-mynav-logo">
                 <a href="index.html">Creative Mess</a>
@@ -36,9 +36,9 @@
                                 search
                             </span>
 
-                            <input type="text" placeholder="Search" >
+                            <input type="text" placeholder="Search">
 
-                            <a href="auth/login.html">
+                            <a href="">
                                 <button class="login-btn">Login</button>
 
                             </a>
@@ -57,17 +57,34 @@
                 </ul>
             </div>
         </nav>
-        <main class="header ">
-            <div class="header-content">
-                <h3>Everthing you have is less</h3>
-                <p>Why settle with less colours, set your inner artist free. Get All your favourite Art Supplies right here!.
-                </p>
-               <button><a href="../productPage/productPpage.html">Shop Now</a></button>
+
+        <div class="form">
+            <div class="form-content">
+                <h2>Signup</h2>
+                <div class="inputs">
+                    <label>Email</label>
+                    <input type="text">
+                </div>
+
+                <div class="inputs">
+                    <label>Password</label>
+                    <input type="password">
+                </div>
+                <div class="extra">
+                    <div class="checkbox">
+                        <label for="checkbox1">
+                            <input type="checkbox" id="checkbox1" name="checkbox" checked>
+                            Accept terms and conditions
+                        </label>
+                    </div>
+                </div>
+                <div class="form-button">
+                    <button class="button primary">Sign up</button>
+                    <a href="login.html"><p>Alredy have account? Login</p></a>
+                </div>
             </div>
-        </main>
-
+        </div>
     </div>
-
 </body>
 
 </html>
